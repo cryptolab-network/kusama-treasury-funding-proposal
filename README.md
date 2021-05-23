@@ -20,7 +20,14 @@ We have developed the CryptoLab website and Telegram bots, which already accumul
 
 Staking on NPoS based chains is hard for non-technical newcomers. As staking on most PoS chains only requires a nominator to choose one validator, staking on Substrate-based chains has a multi-step procedure. Besides, as they are NPoS, a nominator can (and needs) to choose multiple validators. How can a nominator new to Kusama choose good validators can be a problem.
 
-The Polkadot App, although it provided all the needed functions and realtime data for a nominator, it is unorganized and lacks of historical trends and change notifications. A nominator must monitor the validators it chose frequently to avoid being deceived by malicious validators. 
+The Polkadot App, although it provided all the needed functions and realtime data for a nominator, it lacks of historical data and change notifications. A nominator must monitor the validators it chose frequently to avoid being deceived by malicious validators. It also is hard for a nominator to get how much staking rewards it earned solely on the Polkadot App.
+
+To summarize, we aims to resolve the following problems for nominators
+
+* Complicated nomination procedure
+* Don't know which validators are good
+* Hard to calculate rewards from staking
+* No validator historical data 
 
 ## Validator
 
@@ -29,6 +36,8 @@ The Polkadot App, although it provided all the needed functions and realtime dat
 ## Liquidity Provider
 
 ## Staking on Centralized Exchange
+
+Many Kusama holders choose to stake their funds through centralized exchanges because the staking procedure is much simpler than staking on the App. While it is simple, the cons of it are evident. Nominators earns less and it also makes the chain pron to attack because stakes are more concentrated on validators hold by these exchanges.
 
 # Our Solution
 
